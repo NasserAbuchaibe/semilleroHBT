@@ -1,0 +1,1 @@
+Dada una cadena compuesta por “dd/MM/YYYY”, cree tres nuevos elementos que separen los valores para día, mes y año. Ejemplo: 01/03/2018  Imprimir en tres valores variables independientes. 01   03   2018.
