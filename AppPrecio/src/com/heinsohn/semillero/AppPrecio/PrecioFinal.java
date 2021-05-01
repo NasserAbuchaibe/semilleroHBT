@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.heinsohn.semillero.AppPrecio;
 import java.util.*;
 

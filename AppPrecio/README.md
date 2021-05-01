@@ -1,0 +1,1 @@
+Crear una aplicación que lea 5 precio y sumarlo y si se pasa de 300 agregarle 10% del precio final sino solo el 7% y decir cual de todos fue el precio mas alto.
