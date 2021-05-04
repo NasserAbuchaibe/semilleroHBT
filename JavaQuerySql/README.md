@@ -22,8 +22,9 @@ La quita clase es ConnectSqlDb que tiene el metodo connectDatabase para realizar
 Se creo la base de datos en MySQL Workbench.
 
 ### Consulta todas las tablas base de datos:
-![Query DB](semilleroHBT/JavaQuerySql/img/db.png?raw=true)
+![Query DB](semilleroHBT/JavaQuerySql/img/db.png)
 
 ### Ejecucion del test:
 
-![Query D1B](semilleroHBT/JavaQuerySql/img/query.png?raw=true)
+![Query D1B](semilleroHBT/JavaQuerySql/img/query.png
+)
