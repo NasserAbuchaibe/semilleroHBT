@@ -4,22 +4,22 @@ import java.sql.*;
 import java.util.*;
 
 /**
- * Desde JAVA, muestre una lista de los nombres y apellidos de las personas
- * concatenados, con la primera letra en mayúscula, además, muestre la longitud
- * total de los apellidos.
+ * Desde java, muestre los nombres de las personas en mayúscula
+ * cuya fecha de nacimiento sea mayor a 01/01/2010
  * 
  * @author Nasser Abuchaibe
  *
  */
 
 
-public class QueryForName implements IQuerySql {
+public class QueryForDate implements IQuerySql {
 
 	/**
 	 * Estableciendo conexion con  la DB
 	 */
 	Connection conn = ConnectSqlDb.connectDatabase();
-	String fullName;
+	
+	String nameBirth;
 	List<String> listname = new ArrayList<>();
 	int len;
 	
@@ -32,14 +32,13 @@ public class QueryForName implements IQuerySql {
 		 * Realizando consulta a la DB
 		 */
 		Statement s = conn.createStatement();
-		ResultSet rs = s.executeQuery ("SELECT CONCAT(UPPER(LEFT(nombres, 1)), LOWER(SUBSTRING(nombres, 2))), CONCAT(UPPER(LEFT(apellidos, 1)), LOWER(SUBSTRING(apellidos, 2))) FROM semillerohbt.persona;");
+		ResultSet rs = s.executeQuery ("SELECT UPPER(nombres), fecha_nacimiento FROM semillerohbt.persona WHERE fecha_nacimiento > '2010-01-01 00:00:00'");
 		while (rs.next())
 		{
 			String name = rs.getString (1);
-			String lastName = rs.getString (2);
-			len = lastName.length();
-			fullName = name + " "+ lastName + ",  longitud del apellido: " + len ;
-			listname.add(fullName);
+			String birthDate = rs.getString (2);
+			nameBirth = name + " "+ birthDate;
+			listname.add(nameBirth);
 			
 		}
 		}catch (SQLException ex1) {
