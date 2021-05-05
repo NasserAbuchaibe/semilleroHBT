@@ -10,7 +10,7 @@ Nombres -- varchar2, apellidos -- varchar2, sexo –- Varchar2, fecha nacimiento
 
 ## Desarrollo:
 
-Para cumplir con los requerimientos se crearon 5 clases las primeras 4 implementan la interfaceI IQuerySql que tiene el metodo getQuery() el cual reescribimos para realizar en cada clase para realizar las diferentes consultas:  
+Para cumplir con los requerimientos se crearon 5 clases las primeras 4 implementan la interfaceI IQuerySql que tiene el metodo getQuery() el cual reescribimos para realizar en cada clase las diferentes consultas:  
 - QueryForName()
 - QueryForDate()
 - QueryAvgSalary()
