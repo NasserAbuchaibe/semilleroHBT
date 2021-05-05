@@ -21,7 +21,7 @@ La quinta clase es ConnectSqlDb que tiene el metodo connectDatabase para realiza
 ## Base de datos:  
 Se creo la base de datos en MySQL Workbench.
 
-## Consulta todas las tablas base de datos:
+## Consulta tabla personas:
  
  ![tabla](https://i.ibb.co/RPscmQd/db.png)
 
