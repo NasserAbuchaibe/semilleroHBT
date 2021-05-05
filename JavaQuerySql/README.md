@@ -18,13 +18,15 @@ Para cumplir con los requerimientos se crearon 5 clases las primeras 4 implement
 
 La quita clase es ConnectSqlDb que tiene el metodo connectDatabase para realizar la conexion con la base de datos, las anteriores clases usadas para realizar las consultas instancian  a esta clase para su respectivas conexiones.  
 
-### Base de datos:
+## Base de datos:  
 Se creo la base de datos en MySQL Workbench.
 
-### Consulta todas las tablas base de datos:
-![Query DB](semilleroHBT/JavaQuerySql/img/db.png)
+## Consulta todas las tablas base de datos:
+ 
+ ![tabla](https://i.ibb.co/RPscmQd/db.png)
 
-### Ejecucion del test:
+## Ejecucion del test:
 
-![Query D1B](semilleroHBT/JavaQuerySql/img/query.png
-)
+![Query D1B](https://i.ibb.co/mbdqqj6/query.png)
+## Author
+* **Nasser Abuchaibe** - [NasserAbuchaibe](https://github.com/NasserAbuchaibe)
