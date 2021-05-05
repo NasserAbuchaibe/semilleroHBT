@@ -10,13 +10,13 @@ Nombres -- varchar2, apellidos -- varchar2, sexo –- Varchar2, fecha nacimiento
 
 ## Desarrollo:
 
-Para cumplir con los requerimientos se crearon 5 clases las primeras 4 implementan la interfaceI IQuerySql qu tiene el metodo getQuery() el cual rescribimos para realizar en cada clase para realizar las diferentes consultas:  
+Para cumplir con los requerimientos se crearon 5 clases las primeras 4 implementan la interfaceI IQuerySql que tiene el metodo getQuery() el cual reescribimos para realizar en cada clase para realizar las diferentes consultas:  
 - QueryForName()
 - QueryForDate()
 - QueryAvgSalary()
 - QueryAvgGroup()
 
-La quita clase es ConnectSqlDb que tiene el metodo connectDatabase para realizar la conexion con la base de datos, las anteriores clases usadas para realizar las consultas instancian  a esta clase para su respectivas conexiones.  
+La quinta clase es ConnectSqlDb que tiene el metodo connectDatabase para realizar la conexion con la base de datos, las anteriores clases usadas para realizar las consultas instancian  a esta clase para su respectivas conexiones.  
 
 ## Base de datos:  
 Se creo la base de datos en MySQL Workbench.
