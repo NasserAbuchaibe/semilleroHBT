@@ -6,7 +6,7 @@ Nombres -- varchar2, apellidos -- varchar2, sexo –- Varchar2, fecha nacimiento
 1. Desde JAVA, muestre una lista de los nombres y apellidos de las personas concatenados, con la primera letra en mayúscula, además, muestre la longitud total de los apellidos.
 2. Desde java, muestre los nombres de las personas en mayúscula cuya fecha de nacimiento sea mayor a 01/01/2010
 3. Desde java, muestre el salario promedio (AVG) de las personas agrupadas por sexo.
-4. Del grupo anterior excluya los grupos cuyo promedio es menor a 1000
+4. Del grupo anterior excluya los grupos cuyo promedio es menor a 300000 (modifique la cifra, cuando ingrese los registros en la db digite cifras mas grandes)
 
 ## Desarrollo:
 
