@@ -53,7 +53,10 @@ public class UserController {
 	 */
 	@PostMapping
 	public String crearUsuario(UsuarioDTO usuario) {
-		return "El usuario se registro exitosamente!";
+		
+		uRepository.save(usuario);
+		
+		return "Se creo el usuario";
 	}
 	
 	/**
@@ -64,7 +67,7 @@ public class UserController {
 	 */
 	@PutMapping
 	public String actualizarUsuario(UsuarioDTO usuario) {
-		
+		uRepository.save(usuario);
 		return "Se actualizo el usuario!";
 	}
 	
@@ -77,7 +80,8 @@ public class UserController {
 	@DeleteMapping
 	public String eliminarUsuario(int idUsuario) {
 		
-		return "Se elimino el usuario exitosament!";
+		uRepository.deleteById(idUsuario);
+		return "Se elimino el usuario exitosamente!";
 	}
 	
 }

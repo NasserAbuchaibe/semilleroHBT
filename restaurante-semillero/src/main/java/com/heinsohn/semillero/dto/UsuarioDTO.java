@@ -2,9 +2,16 @@ package com.heinsohn.semillero.dto;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
+@Table(name="usuario")
 @Entity
 public class UsuarioDTO {
+	
+
+	public UsuarioDTO() {
+		super();
+	}
 
 	@Id
 	private int id;
